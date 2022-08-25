@@ -1,5 +1,4 @@
 # Backend Crates Dummy Change
-Dummy Change
 
 This folder contains the rust crates and documentation specific to the telemetry backend. A description of the folders:
 
