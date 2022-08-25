@@ -40,6 +40,7 @@ jobs:
         uses: Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8 # v2.0.0
         with:
           workspaces: backend
+          shared-key: "swatsharedkey"
 
       - name: Build
         run: cargo check --all-targets --verbose
